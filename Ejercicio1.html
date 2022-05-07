@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head> 
+    <meta charset="UTF-8">
+    <title>Ejercicio 1</title>
+    <script>
+        let date = new Date();
+        let day= "";
+        if(date == 0){
+            day = "Domingo";
+        }else if(date == 1){
+            day = "Lunes";
+        }else if(date == 2){
+            day = "Martes";
+        }else if(date == 3){
+            day = "Miercoles";
+        }else if(date == 4){
+            day = "Jueves";
+        }else if(date == 5){
+            day = "Viernes";
+        }else{
+            day = "Sabado";
+        }
+        </script>
+</head>
+    <body>
+
+        <div id="day">
+            <button onclick="document.getElementById('day').innerHTML = day">day</button>
+        </div>
+    </body>
+</html>
